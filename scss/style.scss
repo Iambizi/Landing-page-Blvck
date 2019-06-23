@@ -1,0 +1,49 @@
+.testing {
+  width: percentage(5/7);
+}
+body {
+  margin: 0 0;
+}
+
+.left-bg {
+  background-color: #202329;
+  height: 100vh;
+  width: 50vw;
+  float: left;
+  .logo-ttl {
+    span {
+      color: #fe662a;
+    }
+    color: #fff;
+  }
+  .main-ttl {
+    color: #efdabf;
+  }
+  .left-box {
+    background-color: #2b3138;
+    .left-box-ttl {
+      color: #fff;
+    }
+    .left-box-text {
+      color: #fff;
+    }
+  }
+  .bottom-left-box {
+    color: #fff;
+    background-color: #fe662a;
+    width: 25%;
+  }
+}
+.right-bg {
+  background-color: #2b3138;
+  height: 100vh;
+  width: 50vw;
+  float: right;
+  color: #fff;
+  h1.right-big-bg-text {
+    color: #202329;
+  }
+  .right-box {
+    background-color: #202329;
+  }
+}
