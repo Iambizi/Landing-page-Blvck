@@ -1,40 +1,82 @@
 .testing {
   width: percentage(5/7);
 }
+html {
+  overflow: hidden;
+}
 body {
   margin: 0 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .left-bg {
+  position: relative;
   background-color: #202329;
   height: 100vh;
   width: 50vw;
   float: left;
   .logo-ttl {
+    margin: 3% 0px 0px 5%;
     span {
       color: #fe662a;
     }
     color: #fff;
   }
   .main-ttl {
+    margin: 16% 0 0 15%;
     color: #efdabf;
+    font-size: 65px;
   }
   .left-box {
+    position: relative;
+    font-family: "Roboto", sans-serif;
     background-color: #2b3138;
-    .left-box-ttl {
-      color: #fff;
-    }
-    .left-box-text {
-      color: #fff;
+    padding: 10px 0 10px 0;
+    margin-top: 39%;
+    width: 25%;
+    height: 14%;
+
+    .left-txt {
+      position: absolute;
+      right: -40%;
+      .left-box-ttl {
+        color: #fff;
+        // position: absolute;
+        // left: 50%;
+      }
+      .left-box-text {
+        color: #fff;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 160%;
+        font-size: 10px;
+      }
     }
   }
   .bottom-left-box {
+    vertical-align: middle;
+    position: relative;
     color: #fff;
     background-color: #fe662a;
-    width: 25%;
+    width: 15%;
+    margin-top: 12%;
+    font-size: 18px;
+    font-size: 10px;
+    height: 20px;
+    p {
+      position: absolute;
+      right: -35%;
+      top: -4px;
+    }
+  }
+  .mug {
+    height: 10%;
+    width: 10%;
+    z-index: 1000;
   }
 }
 .right-bg {
+  position: relative;
   background-color: #2b3138;
   height: 100vh;
   width: 50vw;
@@ -42,8 +84,38 @@ body {
   color: #fff;
   h1.right-big-bg-text {
     color: #202329;
+    font-size: 235px;
+    margin-top: -55px;
+    margin-left: -55px;
   }
   .right-box {
+    float: right;
     background-color: #202329;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 0 10px 0;
+    margin-top: 7.5%;
+    width: 45%;
+    height: 14%;
+    .right-txt {
+      float: right;
+      position: absolute;
+      left: 48%;
+      .right-box-ttl {
+        color: #fff;
+      }
+      .right-box-text {
+        color: #fff;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 160%;
+        font-size: 10px;
+      }
+    }
+  }
+  .credit {
+    float: right;
+    margin-top: 38%;
+    margin-right: -35%;
+    font-size: 14px;
   }
 }

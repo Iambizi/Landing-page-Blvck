@@ -1,38 +1,100 @@
 .testing {
   width: 71.42857%; }
 
+html {
+  overflow: hidden; }
+
 body {
-  margin: 0 0; }
+  margin: 0 0;
+  font-family: "Roboto", sans-serif; }
 
 .left-bg {
+  position: relative;
   background-color: #202329;
   height: 100vh;
   width: 50vw;
   float: left; }
   .left-bg .logo-ttl {
+    margin: 3% 0px 0px 5%;
     color: #fff; }
     .left-bg .logo-ttl span {
       color: #fe662a; }
   .left-bg .main-ttl {
-    color: #efdabf; }
+    margin: 16% 0 0 15%;
+    color: #efdabf;
+    font-size: 65px; }
   .left-bg .left-box {
-    background-color: #2b3138; }
-    .left-bg .left-box .left-box-ttl {
-      color: #fff; }
-    .left-bg .left-box .left-box-text {
-      color: #fff; }
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background-color: #2b3138;
+    padding: 10px 0 10px 0;
+    margin-top: 39%;
+    width: 25%;
+    height: 14%; }
+    .left-bg .left-box .left-txt {
+      position: absolute;
+      right: -40%; }
+      .left-bg .left-box .left-txt .left-box-ttl {
+        color: #fff; }
+      .left-bg .left-box .left-txt .left-box-text {
+        color: #fff;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 160%;
+        font-size: 10px; }
   .left-bg .bottom-left-box {
+    vertical-align: middle;
+    position: relative;
     color: #fff;
     background-color: #fe662a;
-    width: 25%; }
+    width: 15%;
+    margin-top: 12%;
+    font-size: 18px;
+    font-size: 10px;
+    height: 20px; }
+    .left-bg .bottom-left-box p {
+      position: absolute;
+      right: -35%;
+      top: -4px; }
+  .left-bg .mug {
+    height: 10%;
+    width: 10%;
+    z-index: 1000; }
 
 .right-bg {
+  position: relative;
   background-color: #2b3138;
   height: 100vh;
   width: 50vw;
   float: right;
   color: #fff; }
   .right-bg h1.right-big-bg-text {
-    color: #202329; }
+    color: #202329;
+    font-size: 235px;
+    margin-top: -55px;
+    margin-left: -55px; }
   .right-bg .right-box {
-    background-color: #202329; }
+    float: right;
+    background-color: #202329;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 0 10px 0;
+    margin-top: 7.5%;
+    width: 45%;
+    height: 14%; }
+    .right-bg .right-box .right-txt {
+      float: right;
+      position: absolute;
+      left: 48%; }
+      .right-bg .right-box .right-txt .right-box-ttl {
+        color: #fff; }
+      .right-bg .right-box .right-txt .right-box-text {
+        color: #fff;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 160%;
+        font-size: 10px; }
+  .right-bg .credit {
+    float: right;
+    margin-top: 38%;
+    margin-right: -35%;
+    font-size: 14px; }
