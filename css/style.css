@@ -8,41 +8,41 @@ body {
   margin: 0 0;
   font-family: "Roboto", sans-serif; }
 
-.left-bg {
+.main-bg .left-bg {
   position: relative;
   background-color: #202329;
   height: 100vh;
   width: 50vw;
   float: left; }
-  .left-bg .logo-ttl {
+  .main-bg .left-bg .logo-ttl {
     margin: 3% 0px 0px 5%;
     color: #fff; }
-    .left-bg .logo-ttl span {
+    .main-bg .left-bg .logo-ttl span {
       color: #fe662a; }
-  .left-bg .main-ttl {
-    margin: 16% 0 0 15%;
+  .main-bg .left-bg .main-ttl {
+    margin: 20% 0 0 18%;
     color: #efdabf;
-    font-size: 65px; }
-  .left-bg .left-box {
+    font-size: 85px; }
+  .main-bg .left-bg .left-box {
     position: relative;
     font-family: "Roboto", sans-serif;
     background-color: #2b3138;
     padding: 10px 0 10px 0;
-    margin-top: 39%;
-    width: 25%;
+    margin-top: 26%;
+    width: 29%;
     height: 14%; }
-    .left-bg .left-box .left-txt {
+    .main-bg .left-bg .left-box .left-txt {
       position: absolute;
       right: -40%; }
-      .left-bg .left-box .left-txt .left-box-ttl {
+      .main-bg .left-bg .left-box .left-txt .left-box-ttl {
         color: #fff; }
-      .left-bg .left-box .left-txt .left-box-text {
+      .main-bg .left-bg .left-box .left-txt .left-box-text {
         color: #fff;
         font-weight: 300;
         font-size: 11px;
         line-height: 160%;
         font-size: 10px; }
-  .left-bg .bottom-left-box {
+  .main-bg .left-bg .bottom-left-box {
     vertical-align: middle;
     position: relative;
     color: #fff;
@@ -52,49 +52,89 @@ body {
     font-size: 18px;
     font-size: 10px;
     height: 20px; }
-    .left-bg .bottom-left-box p {
+    .main-bg .left-bg .bottom-left-box p {
       position: absolute;
       right: -35%;
       top: -4px; }
-  .left-bg .mug {
-    height: 10%;
-    width: 10%;
-    z-index: 1000; }
 
-.right-bg {
-  position: relative;
+.main-bg .right-bg {
   background-color: #2b3138;
   height: 100vh;
   width: 50vw;
   float: right;
   color: #fff; }
-  .right-bg h1.right-big-bg-text {
+  .main-bg .right-bg .menu {
+    position: absolute;
+    top: 2%;
+    right: 6%;
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0; }
+  .main-bg .right-bg h1.right-big-bg-text {
     color: #202329;
     font-size: 235px;
     margin-top: -55px;
     margin-left: -55px; }
-  .right-bg .right-box {
+  .main-bg .right-bg .arrow {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    height: 80px; }
+  .main-bg .right-bg .right-box {
     float: right;
     background-color: #202329;
     font-family: "Roboto", sans-serif;
     padding: 10px 0 10px 0;
-    margin-top: 7.5%;
+    margin-top: 3.5%;
     width: 45%;
     height: 14%; }
-    .right-bg .right-box .right-txt {
+    .main-bg .right-bg .right-box .right-txt {
       float: right;
       position: absolute;
-      left: 48%; }
-      .right-bg .right-box .right-txt .right-box-ttl {
+      left: 73%; }
+      .main-bg .right-bg .right-box .right-txt .right-box-ttl {
         color: #fff; }
-      .right-bg .right-box .right-txt .right-box-text {
+      .main-bg .right-bg .right-box .right-txt .right-box-text {
         color: #fff;
         font-weight: 300;
         font-size: 11px;
         line-height: 160%;
         font-size: 10px; }
-  .right-bg .credit {
+  .main-bg .right-bg .mug {
+    position: absolute;
+    left: 26.5%;
+    top: 7.6%;
+    height: 86%;
+    z-index: 1000; }
+  .main-bg .right-bg .credit {
     float: right;
-    margin-top: 38%;
+    margin-top: 34.5%;
     margin-right: -35%;
     font-size: 14px; }
+  .main-bg .right-bg .circle {
+    position: absolute;
+    left: 53%;
+    bottom: 58%;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 16px solid #fe662a; }
+
+@media only screen and (max-width: 1280px) {
+  .main-bg .left-bg .left-box {
+    margin-top: 16%; }
+    .main-bg .left-bg .left-box .left-txt .left-box-text {
+      font-size: 9px; }
+  .main-bg .right-bg .right-box {
+    margin-top: -5%;
+    font-size: 13px; }
+  .main-bg .right-bg h1.right-big-bg-text {
+    color: #202329;
+    font-size: 190px;
+    margin-top: -55px;
+    margin-left: -55px; }
+  .main-bg .right-bg .credit {
+    margin-top: 29%;
+    font-size: 10px; } }
