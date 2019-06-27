@@ -125,6 +125,8 @@ body {
 @media only screen and (max-width: 1280px) {
   .main-bg .left-bg .left-box {
     margin-top: 16%; }
+    .main-bg .left-bg .left-box .left-txt .left-box-ttl {
+      font-size: 14px; }
     .main-bg .left-bg .left-box .left-txt .left-box-text {
       font-size: 9px; }
   .main-bg .right-bg .right-box {
